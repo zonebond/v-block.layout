@@ -1,8 +1,9 @@
 {
   "name": "v-block.layout",
-  "version": "1.0.0-rc",
+  "version": "1.0.1-rc",
   "description": "Layout library that based on Flexbox technology.",
   "main": "index.js",
+  "repository": "https://github.com/zonebond/v-block.layout",
   "author": {
     "name": "zonebond",
     "email": "zonebond@126.com"

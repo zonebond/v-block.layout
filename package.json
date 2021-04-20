@@ -4,6 +4,7 @@
   "description": "Layout library that based on Flexbox technology.",
   "main": "index.js",
   "author": "zonebond",
+  "repository": "https://github.com/zonebond/v-block.layout",
   "license": "MIT",
   "private": false,
   "scripts": {
