@@ -41,8 +41,6 @@ $bash > npm build
 
 <br>
 
-<br>
-
 > #### Install :: 安装
 
 ---
@@ -331,4 +329,6 @@ return <HGroup overflow="auto">...</HGroup>
 > powered by Zonebond of Oneteams studio F2D (F2D is "front-end design and development" team)<br>
 
 > author <zonebond@126.com>
+
+> 知乎 https://www.zhihu.com/people/zonebond/posts
 
