@@ -1,0 +1,16 @@
+{
+  "name": "v-block.layout",
+  "version": "1.0.0-rc",
+  "description": "Layout library that based on Flexbox technology.",
+  "main": "index.js",
+  "author": {
+    "name": "zonebond",
+    "email": "zonebond@126.com"
+  },
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2"
+  }
+}
