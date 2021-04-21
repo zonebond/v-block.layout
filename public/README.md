@@ -9,27 +9,6 @@
 
 <br>
 
-<br>
-
->### How to use.
----
-
-##### 0.  At Frist, we have to exec "yarn" or "npm install" to install node modules in package.json
-##### 1.  use "build" script.
-
-```bash
-[examples]: 
-
-$bash > npm install
-
-$bash > npm build
-```
----
-
-<br>
-
-<br>
-
 > #### Install :: 安装
 
 ---
@@ -60,7 +39,7 @@ const Header = props => (
 );
 
 const Content = props => (
-  ...render content corresponding to selected side-menu, code here!...
+	...render content corresponding to selected side-menu, code here!...
 );
 
 function App() {
@@ -69,8 +48,8 @@ function App() {
     <VGroup width="100vw" height="100vh" horizontal="stretch">
       <Header caption="V-BLOCK.LAYOUT LAB!"/>
       <HGroup flex>
-        <VGroup className="side-menu">
-          ...render side-menu items code here!...
+      	<VGroup className="side-menu">
+        	...render side-menu items code here!...
         </VGroup>
         <Content />
       </HGroup>
