@@ -129,12 +129,12 @@ function View() {
 
 | Value             | Description                                                  |
 | :---------------- | ------------------------------------------------------------ |
-| **center**        | **Pack items around the center** <br />**居中排列**          |
-| **flex-start**    | **Pack flex items from the start** <br />**从行首起始位置开始排列** |
-| **flex-end**      | **Pack flex items from the end** <br />**从行尾位置开始排列** |
-| **stretch**       | **Distribute items evenly Stretch 'auto'-sized items to fit the container** <br />**均匀排列每个元素 'auto'-sized 的元素会被拉伸以适应容器的大**小 |
-| **space-between** | **Distribute items evenly The first item is flush with the start, the last is flush with the end**<br />**均匀排列每个元素，首个元素放置于起点，末尾元素放置于终点** |
-| **space-around**  | **Distribute items evenly Items have a half-size space on either end**<br />**均匀排列每个元素，每个元素周围分配相同的空间** |
+| **center**        | Pack items around the center <br />居中排列                  |
+| **flex-start**    | Pack flex items from the start <br />从行首起始位置开始排列  |
+| **flex-end**      | Pack flex items from the end <br />从行尾位置开始排列        |
+| **stretch**       | Distribute items evenly Stretch 'auto'-sized items to fit the container <br />均匀排列每个元素 'auto'-sized 的元素会被拉伸以适应容器的大小 |
+| **space-between** | Distribute items evenly The first item is flush with the start, the last is flush with the end<br />均匀排列每个元素，首个元素放置于起点，末尾元素放置于终点 |
+| **space-around**  | Distribute items evenly Items have a half-size space on either end<br />均匀排列每个元素，每个元素周围分配相同的空间 |
 
 > **PS** :: **注意**
 
@@ -167,11 +167,11 @@ function App() {
 
 >**options**
 
-| Value      | Description                                                  |
-| ---------- | ------------------------------------------------------------ |
-| **false**  | **disabled flex**<br />**无flex效果**                        |
-| **true**   | **enabled flex and assign value : "1 0 0%"**<br />**启用flex，相当于设置值为“1 0 0%”** |
-| *[string]* | **1. One value, unitless number: flex-grow<br />一个值, 无单位数字: flex-grow<br /><br />2. One value, width/height: flex-basis<br />一个值, width/height: flex-basis<br /><br />3. Two values: flex-grow \| flex-basis<br />两个值: flex-grow \| flex-basis<br /><br />4. Two values: flex-grow \| flex-shrink<br />两个值: flex-grow \| flex-shrink<br /><br />5.Three values: flex-grow \| flex-shrink \| flex-basis<br />三个值: flex-grow \| flex-shrink \| flex-basis** |
+| Value          | Description                                                  |
+| -------------- | ------------------------------------------------------------ |
+| **false**      | disabled flex<br />无flex效果                                |
+| **true**       | enabled flex and assign value : "1 0 0%"<br />启用flex，相当于设置值为“1 0 0%” |
+| ***[string]*** | 1. One value, unitless number: flex-grow<br />一个值, 无单位数字: flex-grow<br /><br />2. One value, width/height: flex-basis<br />一个值, width/height: flex-basis<br /><br />3. Two values: flex-grow \| flex-basis<br />两个值: flex-grow \| flex-basis<br /><br />4. Two values: flex-grow \| flex-shrink<br />两个值: flex-grow \| flex-shrink<br /><br />5.Three values: flex-grow \| flex-shrink \| flex-basis<br />三个值: flex-grow \| flex-shrink \| flex-basis |
 
 ```css
 
@@ -226,9 +226,9 @@ function App() {
 
 | Value                                 | Description                                                  |
 | ------------------------------------- | ------------------------------------------------------------ |
-| **[Number]** 数字类型                 | **The interval between adjacent items in the flexbox container.<br />flexbox容器中相邻元素之间的间隔。<br />数字间隔相当于设置了“数字+px”** |
-| **[String]** 字符串类型               | **The interval between adjacent items in the flexbox container.<br />flexbox容器中相邻元素之间的间隔。<br />字符串间隔相当于设置了“css样式长度”** |
-| **[React Element]** React element类型 | **Use the specified react element to fill the gap of items in the flexbox container.<br />使用指定的react element填充flexbox容器中的项目的间隙** |
+| **[Number]** 数字类型                 | The interval between adjacent items in the flexbox container.<br />flexbox容器中相邻元素之间的间隔。<br />数字间隔相当于设置了“数字+px” |
+| **[String]** 字符串类型               | The interval between adjacent items in the flexbox container.<br />flexbox容器中相邻元素之间的间隔。<br />字符串间隔相当于设置了“css样式长度” |
+| **[React Element]** React element类型 | Use the specified react element to fill the gap of items in the flexbox container.<br />使用指定的react element填充flexbox容器中的项目的间隙 |
 
 ```jsx
 
