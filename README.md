@@ -30,7 +30,7 @@
 ##### 0.  At Frist, we have to exec "yarn" or "npm install" to install node modules in package.json
 ##### 1.  use "build" script.
 
-```
+```bash
 [examples]: 
 
 $bash > npm install
@@ -79,7 +79,7 @@ const Content = props => (
 function App() {
   
   return (
-  	<VGroup width="100vw" height="100vh" horizontal="stretch">
+    <VGroup width="100vw" height="100vh" horizontal="stretch">
       <Header caption="V-BLOCK.LAYOUT LAB!"/>
       <HGroup flex>
       	<VGroup className="side-menu">
@@ -118,7 +118,7 @@ HGroup is the layout container of the **main-axis** in the **horizontal** direct
 
 横向布局组容器
 
-```jsx
+```react
 import { HGroup } from "v-block.layout"
 
 function View() {
@@ -132,7 +132,7 @@ VGroup is the layout container of the **main-axis** in the **vertical** directio
 
 竖向布局组容器
 
-```jsx
+```react
 import { VGroup } from "v-block.layout"
 
 function View() {
@@ -152,7 +152,7 @@ function View() {
 >
 > **alias :: horizontalAlign | verticalAlign**
 
-```jsx
+```react
 <HGroup horizontalAlign="center">
   ... render items code here! ...
 </HGroup>
@@ -171,7 +171,7 @@ function View() {
 
 > **PS** :: **注意**
 
-```javascript
+```css
 stretch, only works on corss-axis
 拉伸，只适用于交叉轴
 
@@ -186,7 +186,7 @@ VGroup :: horizontal = corss-axis | vertical = main-axis
 >
 > **`flex` 设置了弹性项目如何增大或缩小以适应其弹性容器中可用的空间。**
 
-```jsx
+```react
 import { HGroup } from "v-block.layout"
 
 function App() {
@@ -238,14 +238,14 @@ flex: 2 2 10%;
 >
 > **flexbox容器中相邻元素之间的间隔**
 
-```jsx
+```react
 
 import { HGroup } from "v-block.layout"
 
 function App() {
   
   return (
-  	<HGroup gap={10}>
+    <HGroup gap={10}>
     	<ElementA />
       <ElementB />
       ...
@@ -263,7 +263,7 @@ function App() {
 | [String] 字符串类型               | The interval between adjacent items in the flexbox container.<br />flexbox容器中相邻元素之间的间隔。<br />字符串间隔相当于设置了“css样式长度” |
 | [React Element] React element类型 | Use the specified react element to fill the gap of items in the flexbox container.<br />使用指定的react element填充flexbox容器中的项目的间隙 |
 
-```jsx
+```react
 
 // [number]
 return <HGroup gap={10}>...</HGroup>
@@ -287,7 +287,7 @@ return <HGroup gap={<DividingLine />}>...</HGroup>
 >
 > **html盒模型属性**
 
-```jsx
+```react
 
 # width | height  :: [number、string]
 return <HGroup width="10rem" height={10}>...</HGroup>
