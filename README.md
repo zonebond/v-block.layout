@@ -75,6 +75,8 @@ function App() {
 <br>
 
 > #### Concepts & Terms :: 概念&术语
+>
+> ---
 
 ### main-axis :
 
@@ -123,6 +125,8 @@ function View() {
 
 
 > #### Properties :: 属性
+>
+> ---
 
 ### horizontal  |  vertical
 
