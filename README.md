@@ -1,5 +1,5 @@
 # v-block.layout
-<br>
+&nbsp;
 > Layout library that based on Flexbox technology.
 >
 > Group组件是基于Flexbox技术实现的布局组件。能够很大程度上简化使用传统样式方式布局复杂的、灵活的和自适应性布局场景的难度。简化了理解布局样式的难度。统一布了局方式。避免使用不同风格的代码写出布局样式，以至于增加维护成本。屏蔽了跨浏览器、跨平台设备兼容性问题的处理过程。<br>Flexbox 是一种新技术，但在如今各个浏览器都广泛支持的情况下，它已经开始准备广泛应用了。Flexbox提供了工具，允许快速创建曾经被证明用CSS很难实现的一些复杂，灵活的布局和功能。[关于Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
