@@ -1,5 +1,5 @@
-> # v-block.layout
----
+# v-block.layout
+<br>
 
 > Layout library that based on Flexbox technology.
 >
@@ -27,7 +27,7 @@ yarn add v-block.layout@latest --save-dev
 
 ---
 
-```javascript
+```jsx
 # quick start
 
 import { HGroup, VGroup } from 'v-block.layout'
@@ -45,7 +45,7 @@ const Content = props => (
 function App() {
   
   return (
-  	<VGroup width="100vw" height="100vh" horizontal="stretch">
+    <VGroup width="100vw" height="100vh" horizontal="stretch">
       <Header caption="V-BLOCK.LAYOUT LAB!"/>
       <HGroup flex>
       	<VGroup className="side-menu">
@@ -84,7 +84,7 @@ HGroup is the layout container of the **main-axis** in the **horizontal** direct
 
 横向布局组容器
 
-```javascript
+```jsx
 import { HGroup } from "v-block.layout"
 
 function View() {
@@ -98,7 +98,7 @@ VGroup is the layout container of the **main-axis** in the **vertical** directio
 
 竖向布局组容器
 
-```javascript
+```jsx
 import { VGroup } from "v-block.layout"
 
 function View() {
@@ -118,7 +118,7 @@ function View() {
 >
 > **alias :: horizontalAlign | verticalAlign**
 
-```javascript
+```jsx
 <HGroup horizontalAlign="center">
   ... render items code here! ...
 </HGroup>
@@ -152,7 +152,7 @@ VGroup :: horizontal = corss-axis | vertical = main-axis
 >
 > **`flex` 设置了弹性项目如何增大或缩小以适应其弹性容器中可用的空间。**
 
-```javascript
+```jsx
 import { HGroup } from "v-block.layout"
 
 function App() {
@@ -204,15 +204,15 @@ flex: 2 2 10%;
 >
 > **flexbox容器中相邻元素之间的间隔**
 
-```javascript
+```jsx
 
 import { HGroup } from "v-block.layout"
 
 function App() {
   
   return (
-  	<HGroup gap={10}>
-    	<ElementA />
+    <HGroup gap={10}>
+      <ElementA />
       <ElementB />
       ...
     </HGroup>
@@ -229,7 +229,7 @@ function App() {
 | [String] 字符串类型               | The interval between adjacent items in the flexbox container.<br />flexbox容器中相邻元素之间的间隔。<br />字符串间隔相当于设置了“css样式长度” |
 | [React Element] React element类型 | Use the specified react element to fill the gap of items in the flexbox container.<br />使用指定的react element填充flexbox容器中的项目的间隙 |
 
-```javascript
+```jsx
 
 // [number]
 return <HGroup gap={10}>...</HGroup>
@@ -253,7 +253,7 @@ return <HGroup gap={<DividingLine />}>...</HGroup>
 >
 > **html盒模型属性**
 
-```javascript
+```jsx
 
 # width | height  :: [number、string]
 return <HGroup width="10rem" height={10}>...</HGroup>
@@ -299,3 +299,4 @@ return <HGroup overflow="auto">...</HGroup>
 > author <zonebond@126.com>
 
 > 知乎 https://www.zhihu.com/people/zonebond/posts
+

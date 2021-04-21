@@ -1,6 +1,5 @@
-> # v-block.layout
----
-
+# v-block.layout
+<br>
 > Layout library that based on Flexbox technology.
 >
 > Group组件是基于Flexbox技术实现的布局组件。能够很大程度上简化使用传统样式方式布局复杂的、灵活的和自适应性布局场景的难度。简化了理解布局样式的难度。统一布了局方式。避免使用不同风格的代码写出布局样式，以至于增加维护成本。屏蔽了跨浏览器、跨平台设备兼容性问题的处理过程。<br>Flexbox 是一种新技术，但在如今各个浏览器都广泛支持的情况下，它已经开始准备广泛应用了。Flexbox提供了工具，允许快速创建曾经被证明用CSS很难实现的一些复杂，灵活的布局和功能。[关于Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
@@ -20,25 +19,6 @@
 |- package.json
 |- README.md
 ```
----
-<br>
-<br>
-
->### How to use.
----
-
-##### 0.  At Frist, we have to exec "yarn" or "npm install" to install node modules in package.json
-##### 1.  use "build" script.
-
-```bash
-[examples]: 
-
-$bash > npm install
-
-$bash > npm build
-```
----
-
 <br>
 
 <br>
@@ -61,7 +41,7 @@ yarn add v-block.layout@latest --save-dev
 
 ---
 
-```javascript
+```jsx
 # quick start
 
 import { HGroup, VGroup } from 'v-block.layout'
@@ -118,7 +98,7 @@ HGroup is the layout container of the **main-axis** in the **horizontal** direct
 
 横向布局组容器
 
-```javascript
+```jsx
 import { HGroup } from "v-block.layout"
 
 function View() {
@@ -132,7 +112,7 @@ VGroup is the layout container of the **main-axis** in the **vertical** directio
 
 竖向布局组容器
 
-```javascript
+```jsx
 import { VGroup } from "v-block.layout"
 
 function View() {
@@ -152,7 +132,7 @@ function View() {
 >
 > **alias :: horizontalAlign | verticalAlign**
 
-```javascript
+```jsx
 <HGroup horizontalAlign="center">
   ... render items code here! ...
 </HGroup>
@@ -186,7 +166,7 @@ VGroup :: horizontal = corss-axis | vertical = main-axis
 >
 > **`flex` 设置了弹性项目如何增大或缩小以适应其弹性容器中可用的空间。**
 
-```javascript
+```jsx
 import { HGroup } from "v-block.layout"
 
 function App() {
@@ -238,7 +218,7 @@ flex: 2 2 10%;
 >
 > **flexbox容器中相邻元素之间的间隔**
 
-```javascript
+```jsx
 
 import { HGroup } from "v-block.layout"
 
@@ -246,7 +226,7 @@ function App() {
   
   return (
     <HGroup gap={10}>
-    	<ElementA />
+      <ElementA />
       <ElementB />
       ...
     </HGroup>
@@ -263,7 +243,7 @@ function App() {
 | [String] 字符串类型               | The interval between adjacent items in the flexbox container.<br />flexbox容器中相邻元素之间的间隔。<br />字符串间隔相当于设置了“css样式长度” |
 | [React Element] React element类型 | Use the specified react element to fill the gap of items in the flexbox container.<br />使用指定的react element填充flexbox容器中的项目的间隙 |
 
-```javascript
+```jsx
 
 // [number]
 return <HGroup gap={10}>...</HGroup>
@@ -287,7 +267,7 @@ return <HGroup gap={<DividingLine />}>...</HGroup>
 >
 > **html盒模型属性**
 
-```javascript
+```jsx
 
 # width | height  :: [number、string]
 return <HGroup width="10rem" height={10}>...</HGroup>
